@@ -1,0 +1,17 @@
+# NVIDIA BMM Cloud Provider Configuration
+# This file is used by the cloud-controller-manager to connect to NVIDIA BMM API
+
+# NVIDIA BMM API endpoint
+endpoint: "https://api.carbide.nvidia.com"
+
+# Organization name in NVIDIA BMM
+orgName: "your-org-name"
+
+# API authentication token
+token: "your-api-token"
+
+# Site UUID where the cluster is deployed
+siteId: "550e8400-e29b-41d4-a716-446655440000"
+
+# Tenant UUID for the cluster
+tenantId: "660e8400-e29b-41d4-a716-446655440001"
